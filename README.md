@@ -7,15 +7,15 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 **Please create a description for this project here**
 
 ## Credits
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| NPM           | Name                  |
+| ------------- |-----------------------|
+| 140810200015  | Nanda Raihan Sukma    |
+| 140810200033  | Rafa Azka Ulinnuha    |
+| 140810200045  | Amalia Nur Ftri       |
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (planning date)** 
-   -  Short changes 1
+   - Short changes 1
    - Short changes 2
 
 - **[Sprint 1](changelog/sprint-1.md) - (date from x until x)** 
