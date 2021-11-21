@@ -1,10 +1,10 @@
-# Project Name
+# Snake Game
 
 This repository is a final project (Java GUI) from Object-Oriented Programming Class, Teknik Informatika Universitas Padjadjaran. 
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**Implementasi dari game terkenal yaitu Snake dimana ada seekor ular yang dapat diarahkan untuk memakan buah. Jika ular tersebut memakan buah, maka panjangnya akan bertambah.**
 
 ## Credits
 | NPM           | Name                  |
@@ -15,8 +15,9 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Change log
 - **[Sprint Planning](changelog/sprint-planning.md) - (16/11/2021)** 
-   - Short changes 1
-   - Short changes 2
+   - Melakukan meet dan diskusi pertama
+   - Membuat challenge guidelines
+   - Membuat perencanaan changelog
 
 - **[Sprint 1](changelog/sprint-1.md) - (16/11/2021-22/11/2021)** 
    - Inisialisasi Gradle dan JavaFX
