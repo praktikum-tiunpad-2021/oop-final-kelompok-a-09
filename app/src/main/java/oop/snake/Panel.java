@@ -15,8 +15,10 @@ public class Panel extends JPanel implements ActionListener {
     final int x[] = new int[GAME_UNITS];
     final int y[] = new int[GAME_UNITS];
     int bodyParts = 5;
-    char direction = 'R';
+    char direction;
     boolean running = false;
+    boolean isNewGame = true;
+    boolean isPaused;
     int appleEaten;
     Timer speed;
     
@@ -73,6 +75,12 @@ public class Panel extends JPanel implements ActionListener {
                 break;
         }
     }
+    public void resetGame(){
+        isNewGame = false;
+        bodyParts = 6;
+        appleEaten = 0;
+        direction = 'R';
+    }
     @Override
     public void actionPerformed(ActionEvent e){
         if(running){
@@ -102,6 +110,11 @@ public class Panel extends JPanel implements ActionListener {
             case KeyEvent.VK_DOWN:
                 if(direction != 'U'){
                     direction = 'D';
+                }
+                break;
+            case KeyEvent.VK_SPACE:
+                if(isNewGame){
+                    resetGame();
                 }
                 break;
             }
