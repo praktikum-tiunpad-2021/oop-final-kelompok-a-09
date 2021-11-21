@@ -1,31 +1,39 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 16/11/2021 to 22/11/2021
 
-## Team (Insert your name)
-| NPM           | Name        |
-| ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+## Team Nanti Dulu 
+| NPM           | Name                  |
+| ------------- |-----------------------|
+| 140810200015  | Nanda Raihan Sukma    |
+| 140810200033  | Rafa Azka Ulinnuha    |
+| 140810200045  | Amalia Nur Ftri       |
 
 ## Sprint Overview
-| Planned (n)   | Completed (n) |
+| Planned (9)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 9             | n             |
 
 ## Sprint 1 Backlog
 
-| ID  | Title/Desc | Asignee | Status |
-| --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| ID  | Title/Desc                                | Asignee | Status  |
+| --- | ------------------------------------------| ------- | --------|
+| 1.1 | Inisialisasi Gradle dan JavaFX            | Rafa    | DONE    |
+| 1.2 | Inisialisasi frame dan cell               | Rafa    | DONE    |
+| 1.3 | Inisialisasi snake                        | Rafa    | DONE    |
+| 1.4 | Inisialisasi fruit                        | Nanda   | NOT YET |
+| 1.5 | Membuat control player                    | Amel    | NOT YET |
+| 1.6 | Logika move snake                         | Nanda   | NOT YET |
+| 1.7 | Logika scoring                            | Amel    | NOT YET |
+| 1.8 | Logika pertambahan panjang tubuh snake    | Amel    | NOT YET |
+| 1.9 | Logika crashed                            | Nanda   | NOT YET |
 
 ## Retrospective 
 
 Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
 
 ## Next Sprint Backlog (Sprint 2)
-| ID  | Title/Desc | Asignee | 
-| --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
-| 2.2 | Make the x | John Doe | 
+| ID  | Title/Desc              | Asignee | 
+| --- | ------------------------| ------- | 
+| 2.1 | Membuat Side panel      | Rafa    | 
+| 2.2 | Membuat Leaderboard     | Nanda   | 
+| 2.3 | Membuat User Interface  | Amel    | 
