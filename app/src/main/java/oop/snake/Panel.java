@@ -11,7 +11,8 @@ public class Panel extends JPanel implements ActionListener {
     static final int UNIT_SIZE = 6;
     static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/UNIT_SIZE;
     final int x[] = new int[GAME_UNITS];
-    final int y[] = new int[GAME_UNITS];    
+    final int y[] = new int[GAME_UNITS];
+    int bodyParts = 5;    
     
     Panel(){
         this.setPreferredSize(new Dimension(SCREEN_WIDTH, SCREEN_HEIGHT));
