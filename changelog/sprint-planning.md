@@ -40,3 +40,4 @@
 
 ## Retrospective 
 
+Ada sedikit kesulitan dalam menentukan sprint backlog karena bayangan tentang logika-logika pada game ini masih sedikit.
