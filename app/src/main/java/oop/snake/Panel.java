@@ -42,12 +42,17 @@ public class Panel extends JPanel implements ActionListener {
         for(int i = 0; i<bodyParts; i++){
             if(i==0){
                 g.setColor(new Color(255, 226, 226));
-                g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
+                g.fillRect(x[i]+300, y[i]+300, UNIT_SIZE, UNIT_SIZE);
             } else{
                 g.setColor(new Color(255, 199, 199));
-                g.fillRect(x[i], y[i], UNIT_SIZE, UNIT_SIZE);
+                g.fillRect(x[i]+300, y[i]+300, UNIT_SIZE, UNIT_SIZE);
             }
         }
+
+        g.setColor(Color.white);
+        g.setFont(new Font("Sans-Serif", Font.BOLD, 16));
+        FontMetrics metrics = getFontMetrics(g.getFont());
+        g.drawString("Score : " + appleEaten, (SCREEN_WIDTH - metrics.stringWidth("Score : " + appleEaten))/2, getFont().getSize()+6);
     }
     public void startGame(){
         running = true;
@@ -74,6 +79,9 @@ public class Panel extends JPanel implements ActionListener {
                 x[0] = x[0] + UNIT_SIZE;
                 break;
         }
+    }
+    public void checkApple(){
+        appleEaten+=4;
     }
     public void resetGame(){
         isNewGame = false;
