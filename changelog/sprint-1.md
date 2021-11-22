@@ -21,7 +21,7 @@
 | 1.2 | Inisialisasi frame dan cell               | Rafa    | DONE    |
 | 1.3 | Inisialisasi snake                        | Rafa    | DONE    |
 | 1.4 | Inisialisasi fruit                        | Nanda   | DONE    |
-| 1.5 | Membuat control player                    | Amel    | NOT YET |
+| 1.5 | Membuat kontrol player                    | Amel    | NOT YET |
 | 1.6 | Logika move snake                         | Nanda   | DONE    |
 | 1.7 | Logika scoring                            | Amel    | DONE    |
 | 1.8 | Logika pertambahan panjang tubuh snake    | Amel    | DONE    |
@@ -29,7 +29,7 @@
 
 ## Retrospective 
 
-
+Pada Sprint 1 terdapat backlog yang belum terselesaikan secara tuntas masih terdapat beberapa kontrol player seperti pause dan restart game yang belum bisa dijalankan sehingga sisa dari backlog tersebut akan dimasukkan pada Sprint 2
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc                                  | Asignee | 
