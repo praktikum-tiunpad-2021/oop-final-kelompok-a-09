@@ -11,7 +11,7 @@
 ## Sprint Overview
 | Planned (9)   | Completed (n) |
 | ------------- |-------------- |
-| 9             | n             |
+| 9             | 8             |
 
 ## Sprint 1 Backlog
 
@@ -20,20 +20,21 @@
 | 1.1 | Inisialisasi Gradle dan JavaFX            | Rafa    | DONE    |
 | 1.2 | Inisialisasi frame dan cell               | Rafa    | DONE    |
 | 1.3 | Inisialisasi snake                        | Rafa    | DONE    |
-| 1.4 | Inisialisasi fruit                        | Nanda   | NOT YET |
+| 1.4 | Inisialisasi fruit                        | Nanda   | DONE    |
 | 1.5 | Membuat control player                    | Amel    | NOT YET |
-| 1.6 | Logika move snake                         | Nanda   | NOT YET |
-| 1.7 | Logika scoring                            | Amel    | NOT YET |
-| 1.8 | Logika pertambahan panjang tubuh snake    | Amel    | NOT YET |
-| 1.9 | Logika crashed                            | Nanda   | NOT YET |
+| 1.6 | Logika move snake                         | Nanda   | DONE    |
+| 1.7 | Logika scoring                            | Amel    | DONE    |
+| 1.8 | Logika pertambahan panjang tubuh snake    | Amel    | DONE    |
+| 1.9 | Logika crashed                            | Nanda   | DONE    |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+
 
 ## Next Sprint Backlog (Sprint 2)
-| ID  | Title/Desc              | Asignee | 
-| --- | ------------------------| ------- | 
-| 2.1 | Membuat Side panel      | Rafa    | 
-| 2.2 | Membuat Leaderboard     | Nanda   | 
-| 2.3 | Membuat User Interface  | Amel    | 
+| ID  | Title/Desc                                  | Asignee | 
+| --- | --------------------------------------------| ------- | 
+| 2.1 | Membuat Side panel                          | Rafa    | 
+| 2.2 | Membuat Leaderboard                         | Nanda   | 
+| 2.3 | Membuat User Interface                      | Amel    |
+| 2.4 | Menambahkan kontrol player pause & restart  | Amel    |
