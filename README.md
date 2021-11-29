@@ -24,7 +24,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Inisialisasi frame dan cell
    - Inisialisasi snake
    - Inisialisasi fruit
-   - Membuat control player
+   - Membuat kontrol player
    - Logika move snake
    - Logika scoring
    - Logika pertambahan panjang tubuh snake
@@ -33,6 +33,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 - **[Sprint 2](changelog/sprint-2.md) - (23/11/2021-29/11/2021)** 
    - Membuat Side panel
    - Membuat Leaderboard
+   - Menambahkan kontrol player pause dan restart
    - Membuat User Interface
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 

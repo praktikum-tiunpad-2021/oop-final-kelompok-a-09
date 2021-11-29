@@ -40,4 +40,4 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Ada sedikit kesulitan dalam menentukan sprint backlog karena bayangan tentang logika-logika pada game ini masih sedikit.
