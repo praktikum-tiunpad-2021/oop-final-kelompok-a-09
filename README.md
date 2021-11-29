@@ -93,6 +93,30 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
       - **getY()** - Getter koordinat y
       - **addX(x)** - Menambahkan koordinat x
       - **addY(y)** - Menambahkan koordinat y
+5. **SnakeGame** - `SnakeGame.java`
+   - Program utama yang berisi method main.
+   - Arguments (1 arg)
+     1 arg (args) - args tidak digunakan.
+   - 13 Class Variable
+      - **@speed** - Kecepatan Ular
+      - **@fruitEaten** - Untuk menghitung jumlah buah yang sudah dimakan
+      - **@pointSize** - Ukuran cell
+      - **@bodyParts** - Tubuh ular 
+      - **@running** -  Untuk mengecek apakah game berjalan atau tidak
+      - **@isPaused** - Untuk mengecek game berhenti sebentar
+      - **@isNewGame** - Untuk mengecek apakah baru memulai game atau tidak
+      - **@isGameOver** - Untuk mengecek game berakhir
+      - **@snake** - Ular
+      - **@direction** - Arah ular berjalan
+      - **@rand** - Untuk menghasilkan random koordinat x dan y
+      - **@board** - Mengatur ukuran frame
+      - **@fruit** - Buah (makanan Ular)
+   - 5 Method
+      - **start** - Untuk memulai game
+      - **resetGame** - Untuk memulai game baru
+      - **snakeCheck** - Berisi tampilan start, tampilan game over dan movement dari snake
+      - **newFruit** - Untuk memunculkan buah baru secara randon
+      - **main** - Untuk menjalankan program
 
 UML image here
 
