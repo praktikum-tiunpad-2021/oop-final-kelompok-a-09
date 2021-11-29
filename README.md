@@ -35,9 +35,8 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Menambahkan kontrol player pause dan restart
    - Membuat User Interface
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 3](changelog/sprint-3.md) - (30/11/2021-06/12/2021)** 
+   - Membuat UML
 
 ## Running The App
 
