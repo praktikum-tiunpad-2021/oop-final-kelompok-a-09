@@ -46,10 +46,40 @@ TO;DO with steps
 
 ## Classes Used
 
-TO;DO
+Board - Board.java
+   - Objek board untuk menginsialisasi ukuran tinggi dan lebar frame
+   - 2 Class Variable
+      - @height - Tinggi frame
+      - @width - Lebar frame
+   - 2 Method
+      - getHeight() - Getter tinggi frame
+      - getWidth() - Getter lebar frame
+      
+Fruit - Fruit.java
+   - Objek fruit untuk menginsialisasi letak dan warna buah
+   - 3 Class Variable
+      - @fruitX - Koordinat x buah
+      - @fruitY - Koordinat y buah
+      - @fruitColor - Warna buah
+   - 6 Method
+      - setFruitX() - Setter koordinat x buah
+      - setFruitY() - Setter koordinat y buah
+      - setColor() - Setter warna buah
+      - getFruitX() - Getter koordinat x buah
+      - getFruitY() - Getter koordinat y buah
+      - getColor() - Getter warna buah
 
 UML image here
 
 ## Notable Assumption and Design App Details
 
-TO;DO
+Desain Aplikasi
+   - Aplikasi didesain untuk ukuran window 600x600.
+   - Background warna aplikasi adalah hitam.
+   - Ular muncul dengan panjang awal 5 sel dan posisi kepala ada ditengah-tengah area game.
+   - Buah muncul dengan ukuran satu sel dan diposisikan secara acak.
+   - Ular akan mulai bergerak maju dan buah akan muncul setelah pengguna memberikan input dengan menekan tombol spasi.
+   - Jika buah dimakan ular, ular akan bertambah panjangnya pada bagian kepala sebanyak satu sel.
+   - Jika ular menabrak dinding atau menabrak bagian tubuhnya, game akan selesai.
+   - Jika game selesai, munculkan dialog baru untuk menampilkan score.
+   - Jika dialog ditutup, game akan mereset ke posisi awal.

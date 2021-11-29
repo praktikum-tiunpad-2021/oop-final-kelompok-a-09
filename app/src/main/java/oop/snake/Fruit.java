@@ -1,36 +1,48 @@
 package oop.snake;
 
 public class Fruit {
-    private int x;
-    private int y;
+    // koordinat x buah
+    private int fruitX;
+
+    // koordinat y buah
+    private int fruitY;
+
+    // warna buah
     private int fruitColor;
 
+    // konstruktor null
     public Fruit() {
-        this.x = 0;
-        this.y = 0;
+        this.fruitX = 0;
+        this.fruitY = 0;
         this.fruitColor = 0;
     }
 
-    public void setX(int x){
-        this.x = x;
+    // setter koordinat x buah
+    public void setFruitX(int fruitX){
+        this.fruitX = fruitX;
     }
 
-    public void setY(int y){
-        this.y = y;
+    // setter koordinat y buah
+    public void setFruitY(int fruitY){
+        this.fruitY = fruitY;
     }
 
+    // setter warna buah
     public void setColor(int fruitColor){
         this.fruitColor = fruitColor;
     }
 
-    public int getX(){
-        return this.x;
+    // getter koordinat x buah
+    public int getFruitX(){
+        return this.fruitX;
     }
 
-    public int getY(){
-        return this.y;
+    // getter koordinat y buah
+    public int getFruitY(){
+        return this.fruitY;
     }
-
+    
+    // getter warna buah
     public int getColor(){
         return this.fruitColor;
     }
