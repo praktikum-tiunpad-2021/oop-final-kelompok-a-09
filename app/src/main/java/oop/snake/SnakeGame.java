@@ -22,7 +22,6 @@ import javafx.scene.text.Font;
 public class SnakeGame extends Application {
 	// variable
 	static int speed = 7;
-	static int fruitcolor = 0;
 	static int fruitEaten = 0;
 	static int pointSize = 6;
 	static int bodyParts = 5;
@@ -224,7 +223,7 @@ public class SnakeGame extends Application {
 		// random fruit color, memberikan warna buah yang berbeda setiap memunculkan buah yang baru
 		Color cc = Color.WHITE;
 
-		switch (fruitcolor) {
+		switch (fruit.getColor()) {
 		case 0:
 			cc = Color.PURPLE;
 			break;
@@ -266,7 +265,7 @@ public class SnakeGame extends Application {
 					continue start;
 				}
 			}
-			fruitcolor = rand.nextInt(5);
+			fruit.setColor(rand.nextInt(5));
 			break;
 
 		}
