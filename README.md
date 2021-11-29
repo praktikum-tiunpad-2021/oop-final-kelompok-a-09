@@ -31,8 +31,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Logika crashed
 
 - **[Sprint 2](changelog/sprint-2.md) - (23/11/2021-29/11/2021)** 
-   - Membuat Side panel
-   - Membuat Leaderboard
+   - Melakukan perubahan pada code dari swing ke javaFx
    - Menambahkan kontrol player pause dan restart
    - Membuat User Interface
    
@@ -42,32 +41,59 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 ## Running The App
 
-TO;DO with steps
+1. Compile dan jalankan project dengan menggunakan perintah :
+
+ ```
+ gradlew run
+ ```
+
+2. Tombol Keyword yang digunakan adalah sebagai berikut :
+   - Tombol `space` untuk memulai permainan dan mengulangi permainan
+   - Tombol `P` untuk menghentikan sementara permainan
+   - Tombol `←`, `↓`, `→`, dan `↑` untuk menentukan arah pergerakan snake
 
 ## Classes Used
 
-Board - Board.java
-   - Objek board untuk menginsialisasi ukuran tinggi dan lebar frame
+1. **Board** - `Board.java`
+   - Class board untuk menginsialisasi ukuran tinggi dan lebar frame
    - 2 Class Variable
-      - @height - Tinggi frame
-      - @width - Lebar frame
+      - **@height** - Tinggi frame
+      - **@width** - Lebar frame
    - 2 Method
-      - getHeight() - Getter tinggi frame
-      - getWidth() - Getter lebar frame
+      - **getHeight()** - Getter tinggi frame
+      - **getWidth()** - Getter lebar frame
       
-Fruit - Fruit.java
-   - Objek fruit untuk menginsialisasi letak dan warna buah
+2. **Fruit** - `Fruit.java`
+   - Class fruit untuk menginsialisasi letak dan warna buah
    - 3 Class Variable
-      - @fruitX - Koordinat x buah
-      - @fruitY - Koordinat y buah
-      - @fruitColor - Warna buah
+      - **@fruitX** - Koordinat x buah
+      - **@fruitY** - Koordinat y buah
+      - **@fruitColor** - Warna buah
    - 6 Method
-      - setFruitX() - Setter koordinat x buah
-      - setFruitY() - Setter koordinat y buah
-      - setColor() - Setter warna buah
-      - getFruitX() - Getter koordinat x buah
-      - getFruitY() - Getter koordinat y buah
-      - getColor() - Getter warna buah
+      - **setFruitX(fruitX)** - Setter koordinat x buah
+      - **setFruitY(fruitY)** - Setter koordinat y buah
+      - **setColor(fruitColor)** - Setter warna buah
+      - **getFruitX()** - Getter koordinat x buah
+      - **getFruitY()** - Getter koordinat y buah
+      - **getColor()** - Getter warna buah
+
+3. **Direction** - `Direction.java`
+   - Enum class untuk menyimpan nama arah pergerakan snake
+   - 0 Class Variable
+   - 0 Method
+
+4. **Point** - `Point.java`
+   - Class point untuk menentukan titik koordinat pada board game
+   - 2 Class Variable
+      - **@x** - Koordinat x
+      - **@y** - Koordinat y
+   - 6 Method
+      - **setX(x)** - Setter koordinat x
+      - **setY(y)** - Setter koordinat y
+      - **getX()** - Getter koordinat x
+      - **getY()** - Getter koordinat y
+      - **addX(x)** - Menambahkan koordinat x
+      - **addY(y)** - Menambahkan koordinat y
 
 UML image here
 

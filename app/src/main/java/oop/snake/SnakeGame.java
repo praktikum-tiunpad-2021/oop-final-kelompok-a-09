@@ -195,7 +195,7 @@ public class SnakeGame extends Application {
 		}
 
 		// fruit eaten akan mengecek apakah buah termakan oleh snake
-		if (fruit.getX() == snake.get(0).getX() && fruit.getY() == snake.get(0).getY()) {
+		if (fruit.getFruitX() == snake.get(0).getX() && fruit.getFruitY() == snake.get(0).getY()) {
 			snake.add(new Point(-1, -1));
 			fruitEaten++;
 			newFruit();
@@ -241,7 +241,7 @@ public class SnakeGame extends Application {
 			break;
 		}
 		gc.setFill(cc);
-		gc.fillOval(fruit.getX()*pointSize, fruit.getY()*pointSize, pointSize, pointSize); // ukuran dan bentuk buah
+		gc.fillOval(fruit.getFruitX()*pointSize, fruit.getFruitY()*pointSize, pointSize, pointSize); // ukuran dan bentuk buah
 
 		// snake color, memberikan warna dan bentuk pada snake
 		for (Point c : snake) {
@@ -257,11 +257,11 @@ public class SnakeGame extends Application {
 	// new fruit, memunculkan buah baru secara randon
 	public static void newFruit() {
 		start: while (true) {
-			fruit.setX(rand.nextInt(board.getWidth()));
-			fruit.setY(rand.nextInt(board.getHeight()));
+			fruit.setFruitX(rand.nextInt(board.getWidth()));
+			fruit.setFruitY(rand.nextInt(board.getHeight()));
 
 			for (Point c : snake) {
-				if (c.getX() == fruit.getX() && c.getY() == fruit.getY()) {
+				if (c.getX() == fruit.getFruitX() && c.getY() == fruit.getFruitY()) {
 					continue start;
 				}
 			}
