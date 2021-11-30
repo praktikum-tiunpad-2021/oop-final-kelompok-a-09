@@ -87,7 +87,7 @@ public class SnakeGame extends Application {
 						running = true;
 						isGameOver = false;
 					} else {
-						resetGame(primaryStage);
+						resetGame();
 					}
 				}
 				if (key.getCode() == KeyCode.P) {
@@ -109,7 +109,7 @@ public class SnakeGame extends Application {
 		}
 	}
 
-	private void resetGame(Stage primaryStage) {
+	private void resetGame() {
 		fruitEaten = 0;
 		isNewGame = true;
 		isGameOver = false;
