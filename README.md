@@ -118,7 +118,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
       - **newFruit** - Untuk memunculkan buah baru secara randon
       - **main** - Untuk menjalankan program
 
-UML image here
+![UML](/img/UML_NantiDulu.jpg "UML")
 
 ## Notable Assumption and Design App Details
 

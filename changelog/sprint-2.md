@@ -28,4 +28,4 @@ Dikarenakan ada kesulitan dalam menggabungkan swing dengan javaFx maka pada spri
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc    | Asignee |
 | --- | --------------| ------- |
-| 2.1 | Membuat UML   | All     |
+| 3.1 | Membuat UML   | All     |
